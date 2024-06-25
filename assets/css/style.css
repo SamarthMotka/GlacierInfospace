@@ -100,26 +100,41 @@ h6 {
   max-height: 40px;
   margin-right: 12px;
 }
-
+#header div{
+  justify-content: space-between;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /* estimate btn */
 
-.navbar a.estimate-btn{
+.estimate-btn{
   /* margin: 20px 40px; */
   background-color: #fe6600;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #111111;
   border-radius: 4px;
   margin:0px 10px ;
   padding: 10px 20px;
+  transition: 0.3s;
+  text-transform: uppercase;
 }
-.navbar a.estimate-btn:hover{
+.estimate-btn:hover{
   /* margin: 20px 40px; */
-  background-color: #2F4858;
+  background-color: #1e1e1e;
   color: white;
   border-radius: 4px;
   margin:0px 10px ;
   padding: 10px 20px;
+  
+}
+@media (max-width:992px) {
+  .estimate-btn{
+    display: none;
+  }
+  
 }
 
 /**
@@ -2134,53 +2149,6 @@ section {
   color: #fff;
 }
 
-#footer .footer-newsletter {
-  font-size: 15px;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-#footer .footer-newsletter h4 {
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff;
-  position: relative;
-  padding-bottom: 12px;
-}
-
-#footer .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 4px 0 0 4px;
-  text-align: left;
-}
-
-#footer .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 4px 8px;
-  width: calc(100% - 100px);
-}
-
-#footer .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: 0;
-  right: -4px;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: #fe6600;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 0 4px 4px 0;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-#footer .footer-newsletter form input[type=submit]:hover {
-  background: #2ae149;
-}
 
 #footer .credits {
   padding-top: 5px;
@@ -2188,23 +2156,11 @@ section {
   color: #fff;
 }
 
-#footer .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.08);
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 4px;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
+.footer-logo img{
+  max-width: 100%;
 }
-
-#footer .social-links a:hover {
-  background: #fe6600;
-  color: #fff;
-  text-decoration: none;
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

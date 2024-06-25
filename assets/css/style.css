@@ -185,8 +185,68 @@ h6 {
   color: #fe6600;
 }
 
+.industries-detail{
+  width: 285px;
+  height: 250px;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #fe6600, #ff4d3c, #f53c5e, #e03b78, #c3438c);
+  color: white;
+  margin-right: 10px;
+}
+.ind-content{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  /* flex-wrap: wrap; */
+}
+.ind-cont-detail{
+  width: 40%;
+  height: 50px;
+  margin: auto;
+}
+.ind-cont-detail p{
+  font-size: 10px;
+  margin: 0%;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.ind-cont-detail h3{
+  /* font-size: 22px; */
+  font-weight: 900;
+  margin: 0%;
+  padding: 0%;
+}
+.ind-content-p p {
+  margin: 10px 24px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.ind-content-contact{
+  text-align: center;
+  
+  /* margin-left:24px ; */
+  margin: auto;
+}
+.ind-content-contact a{
+  background-color: white;
+  color: #a00055; /* Adjust the color as needed */
+  border: none;
+  padding: 7px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  /* margin-top: 20px; */
+  align-items: center;
+  /* margin: auto; */
+  /* margin-top: 3px; */
+}
+
+
 .navbar .dropdown ul {
-  display: block;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
   position: absolute;
   left: 14px;
   top: calc(100% + 30px);
@@ -202,7 +262,7 @@ h6 {
 }
 
 .navbar .dropdown ul li {
-  min-width: 200px;
+  min-width: 150px;
 }
 
 .navbar .dropdown ul a {

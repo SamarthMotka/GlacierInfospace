@@ -1,11 +1,3 @@
-/**
-* Template Name: Company
-* Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -20,7 +12,7 @@ a {
 }
 
 a:hover {
-  color: #2ae149;
+  color: #ff8a3b;
   text-decoration: none;
 }
 
@@ -106,42 +98,30 @@ h6 {
 
 #header .logo img {
   max-height: 40px;
-}
-
-/*--------------------------------------------------------------
-# Header Social Links
---------------------------------------------------------------*/
-.header-social-links {
-  margin-left: 20px;
-  border-left: 1px solid #c4c4c4;
-}
-
-.header-social-links a {
-  color: #a0a0a0;
-  display: inline-block;
-  line-height: 0px;
-  transition: 0.3s;
-  padding-left: 20px;
-}
-
-.header-social-links a i {
-  line-height: 0;
-}
-
-.header-social-links a:hover {
-  color: #fe6600;
-}
-
-@media (max-width: 768px) {
-  .header-social-links {
-    padding: 0 15px 0 0;
-    border-left: 0;
-  }
+  margin-right: 12px;
 }
 
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+/* estimate btn */
+
+.navbar a.estimate-btn{
+  /* margin: 20px 40px; */
+  background-color: #fe6600;
+  border-radius: 4px;
+  margin:0px 10px ;
+  padding: 10px 20px;
+}
+.navbar a.estimate-btn:hover{
+  /* margin: 20px 40px; */
+  background-color: #2F4858;
+  color: white;
+  border-radius: 4px;
+  margin:0px 10px ;
+  padding: 10px 20px;
+}
+
 /**
 * Desktop Navigation 
 */

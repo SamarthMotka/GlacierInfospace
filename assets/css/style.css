@@ -25,6 +25,42 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.service-category img {
+    width: 40px;
+    height: 40px;
+}
+
+.service-category h5 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.service-category ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.service-category ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.personalized-solution {
+    background: linear-gradient(to right, #a00055, #002d72);
+}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -100,12 +136,74 @@ h6 {
   max-height: 40px;
   margin-right: 12px;
 }
-#header div{
+.div-top{
   justify-content: space-between;
 }
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+/* service hover  */
+.service-cont {
+  width: 600px;
+  justify-content:flex-start;
+}
+
+.service-cont a{
+  color: #000;
+  text-decoration:none;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  padding: 0px;
+}
+.service-cont h5{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 8px 0;
+  margin-left: 10px;
+}
+.service-veiw-more{
+  background-image: linear-gradient(to right, #fe6600, #ff4d3c, #f53c5e, #e03b78, #c3438c);
+  color: white;
+  color: white;
+  margin-top: 10px;
+  position: relative;
+  left: 12px;
+  /* bottom: 10px; */
+  
+}
+.service-personalize{
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.service-personalize-span{
+  font-size: 12px;
+  /* font-weight: 200px; */
+  padding-top: 5px;
+  color: white;
+}
+.service-personalize-btn{
+  background-color: white;
+  border: 1px solid white;
+  color: #fe6600;
+  font-weight: 900;
+  white-space: nowrap;
+  border-radius: 6px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  height: 50px;
+  margin-bottom: 0px !important;
+}
+
+
+
+
 /* estimate btn */
 
 .estimate-btn{
@@ -217,7 +315,7 @@ h6 {
   padding: 0%;
 }
 .ind-content-p p {
-  margin: 10px 24px;
+  margin: 30px 24px;
   font-size: 12px;
   font-weight: 600;
 }
@@ -246,9 +344,9 @@ h6 {
 .navbar .dropdown ul {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  gap: 10px;
+  gap: 12px;
   position: absolute;
-  left: 14px;
+  left: -100px;
   top: calc(100% + 30px);
   margin: 0;
   padding: 10px 0;

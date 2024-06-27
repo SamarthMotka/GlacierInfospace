@@ -146,6 +146,7 @@ body {
 .service-cont {
   width: 600px;
   justify-content:flex-start;
+  /* display: none; */
 }
 
 .service-cont a{
@@ -201,7 +202,17 @@ body {
   margin-bottom: 0px !important;
 }
 
-
+@media (min-width:992px) {
+  .service-mobile{
+    display: none;
+  }
+  
+  }
+@media (max-width:992px) {
+  .service-cont{
+    display: none;
+  }
+}
 
 
 /* estimate btn */

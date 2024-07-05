@@ -1139,6 +1139,43 @@ section {
   transform: scale(1.1);
 }
 
+#location{
+  background-image: url(https://thumbs.dreamstime.com/z/world-map-orange-dots-38013461.jpg?w=992);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FFFFFF;
+}
+.location-add{
+  background-color: #f6f6f6;
+  width: 280px;
+  border-radius: 5px;
+  padding: 35px;
+}
+.location-add h5{
+  font-weight: 700;
+  
+}
+
+.location-add p{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+
+
+}
+hr{
+  margin: 1.5rem 0;
+  border: 1;
+  border-top: var(--bs-border-width) solid;
+  opacity: 1;
+}
+.loaction-main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
@@ -1332,116 +1369,83 @@ section {
   color: #fe6600;
 }
 
-/*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.pricing .box {
-  padding: 20px;
-  background: #fff;
+/* ------------------------------------------
+ extra page 
+--------------------------------------------- */
+
+.serv-hero-main h1{
+  font-weight: 900;
   text-align: center;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-}
-
-.pricing h3 {
-  font-weight: 400;
-  margin: -20px -20px 20px -20px;
-  padding: 20px 15px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #847872;
-  background: #f8f8f8;
-}
-
-.pricing h4 {
   font-size: 36px;
-  color: #fe6600;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 20px;
+  line-height: 42px;
+  
 }
 
-.pricing h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing h4 span {
-  color: #bababa;
+.serv-hero-main h5{
+  text-align: center;
   font-size: 16px;
-  font-weight: 300;
+  line-height: 26px;
+}
+.reach-out{
+  border-radius: 6px;
+  background-color: #fe6600;
+  border: 1px solid #fe6600;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 10px 20px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+.reach-out-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-size: 13px;
+  font-weight: 700;
+}
+.service-cont-logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.pricing ul {
-  padding: 0;
-  list-style: none;
-  color: #4d4643;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
+.service-cont-logo img{
+  width: 100px;
+  height: 100px;
+  
+}
+.serv-logo-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.serv-logo-container span{
+ margin: 5px;
+ font-weight: 700;
 }
 
-.pricing ul li {
-  padding-bottom: 16px;
-}
 
-.pricing ul i {
-  color: #fe6600;
-  font-size: 18px;
-  padding-right: 4px;
+#service__benefits{
+  background-color: #f1f1f1;
 }
-
-.pricing ul .na {
-  color: #ccc;
-  text-decoration: line-through;
+.service__container{
+  background-color: #e2e2e2;
 }
+.what-we-do h1{
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
 
-.pricing .btn-wrap {
-  margin: 20px -20px -20px -20px;
-  padding: 20px 15px;
-  background: #f8f8f8;
-  text-align: center;
 }
+.what-we-do h3{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
 
-.pricing .btn-buy {
-  background: #fe6600;
-  display: inline-block;
-  padding: 8px 35px 10px 35px;
-  border-radius: 4px;
-  color: #fff;
-  transition: none;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
 }
-
-.pricing .btn-buy:hover {
-  background: #2ae149;
-}
-
-.pricing .featured h3 {
-  color: #fff;
-  background: #fe6600;
-}
-
-.pricing .advanced {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: #fe6600;
-  color: #fff;
-}
-
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/

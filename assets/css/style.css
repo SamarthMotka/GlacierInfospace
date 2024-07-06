@@ -1470,6 +1470,9 @@ hr{
 .tools{
   background-color: #f4f4f4;
 }
+.h1{
+  font-weight: 900;
+}
 
 .tools h1{
   font-weight: 900;

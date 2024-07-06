@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   color: #4d4643;
 }
 
@@ -22,11 +22,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family:"Red Hat Display", sans-serif;
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
@@ -221,7 +221,7 @@ body {
 .estimate-btn{
   /* margin: 20px 40px; */
   background-color: #fe6600;
-  font-family: "Roboto", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 13px;
   font-weight: 600;
   color: #111111;
@@ -272,7 +272,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 13px;
   font-weight: 600;
   color: #111;
@@ -585,7 +585,7 @@ body {
 }
 
 #hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -804,6 +804,24 @@ section {
     display: inline-block;
   }
 }
+/* page  why is it used  */
+
+
+.benefits-inner{
+  background-color: #fff;
+  border-radius: 5px;
+  height: 100%;
+  padding: 1.5rem 1.5rem 0;
+  -webkit-box-shadow: 0 8px 32px 0 rgb(0 0 0 / 8%);
+  box-shadow: 0 8px 32px 0 rgb(0 0 0 / 8%);
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Services
@@ -1143,14 +1161,16 @@ section {
   background-image: url(https://thumbs.dreamstime.com/z/world-map-orange-dots-38013461.jpg?w=992);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-color: #FFFFFF;
 }
 .location-add{
   background-color: #f6f6f6;
-  width: 280px;
+  width: 250px;
   border-radius: 5px;
   padding: 35px;
+  margin: 20px;
+  box-shadow: 20px 20px 50px rgb(156, 156, 156);
 }
 .location-add h5{
   font-weight: 700;
@@ -1161,6 +1181,7 @@ section {
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
+  /* margin: 30px; */
 
 
 }
@@ -1173,7 +1194,7 @@ hr{
 .loaction-main{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 /*--------------------------------------------------------------
@@ -1314,7 +1335,7 @@ hr{
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   color: #111;
 }
 
@@ -1429,11 +1450,11 @@ hr{
 
 
 #service__benefits{
-  background-color: #f1f1f1;
+  background-color: #fafafa;
 }
-.service__container{
+/* .service__container{
   background-color: #e2e2e2;
-}
+} */
 .what-we-do h1{
   font-weight: 900;
   font-size: 36px;
@@ -1446,6 +1467,29 @@ hr{
   line-height: 22px;
 
 }
+.tools{
+  background-color: #f4f4f4;
+}
+
+.tools h1{
+  font-weight: 900;
+}
+.idea h1{
+  font-weight: 900;
+}
+.btn-primary{
+    border-radius: 6px;
+    font-weight: 700 ;
+    background-color: #fe6600;
+    border: 1px solid #fe6600;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 10px 20px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    white-space: nowrap;
+}
+
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
@@ -1472,7 +1516,7 @@ hr{
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -2274,7 +2318,7 @@ hr{
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
   color: rgba(255, 255, 255, 0.7);
 }
 

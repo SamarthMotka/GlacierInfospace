@@ -142,110 +142,7 @@ body {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* service hover  */
-.service-cont {
-  width: 600px;
-  justify-content: flex-start;
-  /* display: none; */
-}
 
-.service-cont a {
-  color: #000;
-  text-decoration: none;
-  list-style: none;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 12px;
-  padding: 0px;
-}
-.service-cont h5 {
-  font-size: 12px;
-  font-weight: 500;
-  margin: 8px 0;
-  margin-left: 10px;
-}
-.service-veiw-more {
-  background-image: linear-gradient(
-    to right,
-    #fe6600,
-    #ff4d3c,
-    #f53c5e,
-    #e03b78,
-    #c3438c
-  );
-  color: white;
-  color: white;
-  margin-top: 10px;
-  position: relative;
-  left: 12px;
-  /* bottom: 10px; */
-}
-.service-personalize {
-  font-size: 24px;
-  font-weight: 600;
-  padding-top: 10px;
-  padding-right: 15px;
-  display: flex;
-  flex-direction: column;
-  color: white;
-}
-.service-personalize-span {
-  font-size: 12px;
-  /* font-weight: 200px; */
-  padding-top: 5px;
-  color: white;
-}
-.service-personalize-btn {
-  background-color: white;
-  border: 1px solid white;
-  color: #fe6600;
-  font-weight: 900;
-  white-space: nowrap;
-  border-radius: 6px;
-  padding: 10px 20px;
-  text-transform: uppercase;
-  height: 50px;
-  margin-bottom: 0px !important;
-}
-
-@media (min-width: 992px) {
-  .service-mobile {
-    display: none;
-  }
-}
-@media (max-width: 992px) {
-  .service-cont {
-    display: none;
-  }
-}
-
-/* estimate btn */
-
-.estimate-btn {
-  /* margin: 20px 40px; */
-  background-color: #fe6600;
-  font-family: "Red Hat Display", sans-serif;
-  font-size: 13px;
-  font-weight: 600;
-  color: #111111;
-  border-radius: 4px;
-  margin: 0px 10px;
-  padding: 10px 20px;
-  transition: 0.3s;
-  text-transform: uppercase;
-}
-.estimate-btn:hover {
-  /* margin: 20px 40px; */
-  background-color: #1e1e1e;
-  color: white;
-  border-radius: 4px;
-  margin: 0px 10px;
-  padding: 10px 20px;
-}
-@media (max-width: 992px) {
-  .estimate-btn {
-    display: none;
-  }
-}
 
 /**
 * Desktop Navigation 
@@ -536,8 +433,129 @@ body {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
+
+
+/* #service and industry hover  */
+
+.service-cont {
+  width: 700px;
+  justify-content: flex-start;
+  /* display: none; */
+}
+
+
+.main-links{
+  display: flex;
+  flex: row;
+}
+
+.main-links a {
+  color: #000;
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 700;
+  /* margin-bottom: 12px; */
+  padding-left: 7px !important;
+  font-weight: 700 !important;
+}
 .nav-icon {
-  width: 20px;
+  width: 28px;
+  height: 28px;
+  margin: auto 0px;
+}
+.col-35{
+  width: 29%;
+  margin: 15px;
+}
+.sub-links a {
+  font-size: 12px !important;
+  padding:  2px 15px !important;
+  font-weight: 500;
+  margin-left: 18px;
+}
+.service-veiw-more {
+  background-image: linear-gradient(
+    to right,
+    #fe6600,
+    #ff4d3c,
+    #f53c5e,
+    #e03b78,
+    #c3438c
+  );
+  color: white;
+  color: white;
+  margin-top: 10px;
+  position: relative;
+  left: 12px;
+  /* bottom: 10px; */
+}
+.service-personalize {
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.service-personalize-span {
+  font-size: 12px;
+  /* font-weight: 200px; */
+  padding-top: 5px;
+  color: white;
+}
+.service-personalize-btn {
+  background-color: white;
+  border: 1px solid white;
+  color: #fe6600;
+  font-weight: 900;
+  white-space: nowrap;
+  border-radius: 6px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  height: 50px;
+  margin-bottom: 0px !important;
+}
+
+@media (min-width: 992px) {
+  .service-mobile {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .service-cont {
+    display: none;
+  }
+}
+
+/* estimate btn */
+
+.estimate-btn {
+  /* margin: 20px 40px; */
+  background-color: #fe6600;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #111111;
+  border-radius: 4px;
+  margin: 0px 10px;
+  padding: 10px 20px;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+.estimate-btn:hover {
+  /* margin: 20px 40px; */
+  background-color: #1e1e1e;
+  color: white;
+  border-radius: 4px;
+  margin: 0px 10px;
+  padding: 10px 20px;
+}
+@media (max-width: 992px) {
+  .estimate-btn {
+    display: none;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1464,13 +1482,13 @@ hr {
   display: block;
   margin: 0 auto;
 }
-.col-md-3{
+.col-md-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.alig{
+.alig {
   background-color: #f5f5f5;
   padding: 20px;
   border-radius: 15px;
@@ -1517,10 +1535,10 @@ hr {
   transition: all 0.5s ease;
   white-space: nowrap;
 }
-.review-rating-home img{
-max-width: 100px;
+.review-rating-home img {
+  max-width: 100px;
 }
-.review-rating-lists div{
+.review-rating-lists div {
   display: flex;
   flex-direction: row;
   align-items: center;

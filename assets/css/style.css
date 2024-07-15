@@ -834,13 +834,23 @@ section {
   background-color: #fff;
   border-radius: 5px;
   height: 100%;
-  padding: 1.5rem 1.5rem 0;
+  padding: 1.5rem 1.5rem 1.5rem;
   -webkit-box-shadow: 0 8px 32px 0 rgb(0 0 0 / 8%);
   box-shadow: 0 8px 32px 0 rgb(0 0 0 / 8%);
   -webkit-transform: translateY(0px);
   transform: translateY(0px);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+}
+.benefits-inner h1{
+  text-align: center;
+  font-weight: 700;
+
+}
+.benefits-inner h3{
+  text-align: center;
+  font-size: 18px;
+
 }
 
 /*--------------------------------------------------------------
@@ -1423,6 +1433,12 @@ hr {
   font-size: 36px;
   line-height: 42px;
 }
+.serv-hero-main h3{
+  font-weight: 900;
+  text-align: center;
+  font-size: 28px;
+  line-height: 42px;
+}
 
 .serv-hero-main h5 {
   text-align: center;
@@ -1526,6 +1542,9 @@ hr {
 .idea h1 {
   font-weight: 900;
 }
+.idea h3 {
+  color: #fe6600;
+}
 .btn-primary {
   border-radius: 6px;
   font-weight: 700;
@@ -1547,6 +1566,97 @@ hr {
   align-items: center;
   justify-content: center;
 }
+
+
+/* industries pages  */
+
+.bg__animation {
+  background-color: orange;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.dark__cta .btn-outline:hover, .dark__cta .btn-outline.active, .dark__cta .btn-outline:focus {
+  background-color: #ffffff;
+  color: orange !important;
+}
+.dark__cta .btn-outline {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.btn-outline {
+  border-radius: 6px;
+  background-color: transparent;
+  border: 1px solid #0a0a0a;
+  color: #0a0a0a;
+  font-size: 13px;
+  padding: 10px 20px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  white-space: nowrap;
+}
+
+.Industries .icon-box {
+  padding: 40px 20px 40px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+}
+
+.Industries .icon-box .icon {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
+}
+
+.Industries .icon-box .icon i {
+  font-size: 36px;
+  transition: 0.5s;
+  position: relative;
+}
+
+.Industries .icon-box .icon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Industries .icon-box .icon svg path {
+  transition: 0.5s;
+  fill: #f5f5f5;
+}
+
+.Industries .icon-box h4 {
+  font-weight: 700;
+  margin: 10px 0 15px 0;
+  font-size: 28px;
+}
+
+.Industries .icon-box h4 a {
+  color: #111;
+  transition: ease-in-out 0.3s;
+}
+
+.Industries .icon-box p {
+  line-height: 24px;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.Industries .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+}
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions

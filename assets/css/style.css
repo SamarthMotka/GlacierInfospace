@@ -1453,11 +1453,14 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  padding: 20px;
+  width: 180px;
 }
 
 .service-cont-logo img {
-  width: 100px;
-  height: 100px;
+  width: 64px;
+  height: 64px;
 }
 .serv-logo-container {
   display: flex;

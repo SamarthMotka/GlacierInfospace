@@ -1497,7 +1497,7 @@ hr {
   justify-content: center;
 }
 .serv-logo-container span {
-  margin: 5px;
+  /* margin: 5px; */
   font-weight: 700;
 }
 .stars {

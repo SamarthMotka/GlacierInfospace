@@ -125,6 +125,9 @@ body {
 
 #header .logo a {
   color: #111;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
 }
 
 #header .logo a span {

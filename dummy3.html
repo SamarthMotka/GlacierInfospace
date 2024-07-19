@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+<style>
+
+.collapsible {
+  background-color: #ebebeb;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-bottom: 1px solid black !important;
+}
+
+.collapsibles a{
+  text-decoration: none;
+  color: black;
+}
+
+.active, .collapsible:hover {
+  background-color: #ffc7a2;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.content a{
+  list-style:none;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+}
+
+.brd-btm{
+  border-bottom: 1px solid black;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Animated Collapsibles</h2>
+
+
+
+<button class="collapsible">Web Development</button>
+<div class="content">
+  <a class="brd-btm" href="services/PHP.html">PHP Web Development</a>
+  <a class="brd-btm" href="services/WORDPRESS.html">WordPress Development</a>
+  <a class="brd-btm" href="services/ECOMMERCE.html">E-Commerce Development</a>
+  <a class="brd-btm" href="services/CMS.html">CMS Development</a>
+  <a class="brd-btm" href="services/ENTERPRISE.html">Enterprise Web Development</a>
+  <a href="services/CUSTOM.html">Custom Web Development</a>
+</div>
+
+<button class="collapsible">Mobile Development</button>
+<div class="content">
+  <a class="brd-btm" href="services/ANDROID.html">Android Application Development</a>
+  <a class="brd-btm" href="services/IOS.html">iOS Application Development</a>
+  <a class="brd-btm" href="services/REACT_NATIVE.html">React Native App Development</a>
+  <a href="services/PWA.html">PWA Development</a>
+</div>
+
+<button class="collapsible">Cloud & DevOps</button>
+<div class="content">
+  <a class="brd-btm" href="services/AWS.html"> AWS</a>
+  <a class="brd-btm" href="services/AZURE.html"> Microsoft Azure Cloud</a>
+  <a href="services/GC.html"> Google Cloud</a>
+</div>
+
+
+<button class="collapsible">Digital Marketing</button>
+<div class="content">
+  <a class="brd-btm" href="services/SEO.html">Search Engine Optimization </a>
+  <a class="brd-btm" href="services/MEDIA_MARKETING.html">Social Media Marketing </a>
+  <a class="brd-btm" href="services/APP_MARKETING.html">Mobile Application Marketing </a>
+  <a class="brd-btm" href="services/CONTENT_MARKETING.html">Content Marketing </a>
+  <a  href="services/REP_MANAGEMENT.html">Reputation Management </a>
+</div>
+
+
+<button class="collapsible">Design Services</button>
+<div class="content">
+  <a class="brd-btm" href="/WIREFRANE.html">Wireframe Design</a>
+  <a class="brd-btm" href="/UI_UX.html">UI/UX Design</a>
+  <a class="brd-btm" href="/DESIGN_PROTOTYPING.html">Design Prototyping</a>
+  <a  href="/APP_WEB_DESIGN.html">Mobile App/Website Design</a>
+</div>
+
+<button class="collapsible"><a href="">AI & ML</a></button>
+
+<button class="collapsible"><a href="">Chatbot</a></button>
+<button class="collapsible"><a href="">Chatbot</a></button>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>

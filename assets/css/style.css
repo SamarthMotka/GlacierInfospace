@@ -2642,3 +2642,59 @@ hr {
 .border-right-dark {
   border-right: 3px solid rgb(90, 90, 90);
 }
+.collapsible {
+  /* background-color: #ebebeb; */
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-bottom: 1px solid black !important;
+}
+
+.active, .collapsible:hover {
+  background-color: #fcf3ed;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.content a{
+  list-style:none;
+  text-decoration: none;
+  color: black;
+  padding: 5px 20px;
+}
+
+/* .brd-btm{
+  border-bottom: 1px solid black;
+} */
+.collapsibles {
+  /* background-color: #ebebeb; */
+  cursor: pointer;
+  padding: 10px 0px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-bottom: 1px solid black !important;
+}
+/* .collapsibles a{
+  background-color: #ebebeb;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-bottom: 1px solid black !important;
+} */

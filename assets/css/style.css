@@ -1587,6 +1587,12 @@ hr {
   transition: all 0.5s ease;
   white-space: nowrap;
 }
+.btn-primary:hover{
+  background-color:#1e1e1e ;
+  color: white;
+  border: 1px solid #1e1e1e;
+}
+
 .review-rating-home img {
   max-width: 100px;
 }

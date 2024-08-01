@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Red Hat Display", sans-serif;
-  color: #4d4643;
+  color: black;
 }
 
 a {
@@ -27,7 +27,7 @@ h6 {
 
 body {
   font-family: "Red Hat Display", sans-serif;
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
   margin: 0;
   padding: 0;
 }
@@ -171,6 +171,7 @@ body {
   position: relative;
 }
 
+
 .navbar a,
 .navbar a:focus {
   display: flex;
@@ -179,11 +180,18 @@ body {
   padding: 10px 0 10px 30px;
   font-family: "Red Hat Display", sans-serif;
   font-size: 13px;
-  font-weight: 600;
-  color: #111;
+  font-weight: 700;
+  color: #0a0a0a;
   white-space: nowrap;
   text-transform: uppercase;
   transition: 0.3s;
+  line-height: 20px;
+  letter-spacing: 1px;
+  border-top: 4px solid transparent;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+
+  
 }
 
 .navbar a i,
@@ -288,11 +296,12 @@ body {
 }
 
 .navbar .dropdown ul a {
-  padding: 10px 20px;
-  font-size: 14px;
+  padding: 8px 20px;
+  font-size: 15px;
   font-weight: 500;
   text-transform: none;
-  color: #111;
+  color: #0a0a0a;
+  font-weight: 500;
 }
 
 .navbar .dropdown ul a i {
@@ -447,9 +456,14 @@ body {
 /* #service and industry hover  */
 
 .service-cont {
-  width: 700px;
+  
+  width: 800px;
   justify-content: flex-start;
   /* display: none; */
+}
+.service-drop{
+  /* position: relative !important; */
+  left: -300% !important;
 }
 
 
@@ -480,7 +494,7 @@ body {
 .sub-links a {
   font-size: 12px !important;
   padding:  2px 15px !important;
-  font-weight: 500;
+  font-weight: 600;
   margin-left: 18px;
 }
 .service-veiw-more {
@@ -549,18 +563,20 @@ body {
   font-family: "Red Hat Display", sans-serif;
   font-size: 13px;
   font-weight: 600;
-  color: #111111;
+  color: white;
   border-radius: 4px;
   margin: 0px 10px;
   padding: 10px 20px;
   transition: 0.3s;
+  border: 2px solid #fe6600;
   text-transform: uppercase;
 }
 .estimate-btn:hover {
   /* margin: 20px 40px; */
-  background-color: #1e1e1e;
-  color: white;
+  background-color: white;
+  color: #fe6600;
   border-radius: 4px;
+  border: 2px solid #fe6600;
   margin: 0px 10px;
   padding: 10px 20px;
 }
@@ -575,7 +591,7 @@ body {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   background-color: rgba(0, 0, 0, 0.8);
   overflow: hidden;
   position: relative;
@@ -746,7 +762,7 @@ body {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 50px 0;
   overflow: hidden;
 }
 
@@ -870,7 +886,15 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  padding: 70px 20px 80px 20px;
+  /* padding: 70px 20px 80px 20px; */
+  padding: 20px;
+  transition: all ease-in-out 0.3s;
+  /* background: #fff; */
+}
+.services .icon-box:hover {
+  text-align: center;
+  /* padding: 70px 20px 80px 20px; */
+  padding: 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
@@ -1015,7 +1039,7 @@ section {
   font-weight: 400;
   line-height: 1;
   text-transform: uppercase;
-  color: #4d4643;
+  color: black;
   transition: all 0.3s;
   border-radius: 4px;
 }
@@ -1178,18 +1202,19 @@ section {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
-.clients .clients-wrap {
+/* .clients .clients-wrap {
   border-top: 1px solid #ececec;
   border-left: 1px solid #ececec;
-}
+} */
 
 .clients .client-logo {
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid #ececec;
-  border-bottom: 1px solid #ececec;
+  /* border-right: 1px solid #ececec;
+  border-bottom: 1px solid #ececec; */
+  border: 1px solid #ececec;
   overflow: hidden;
   background: #fff;
   height: 100px;
@@ -1209,26 +1234,49 @@ section {
   background-image: url(https://thumbs.dreamstime.com/z/world-map-orange-dots-38013461.jpg?w=992);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: inherit;
   background-color: #ffffff;
 }
 .location-add {
   background-color: #f6f6f6;
-  width: 250px;
+  width: 300px;
   border-radius: 5px;
   padding: 35px;
   margin: 20px;
   box-shadow: 20px 20px 50px rgb(156, 156, 156);
 }
 .location-add h5 {
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
 }
 
 .location-add p {
+  font-size: 15px;
   font-weight: 500;
-  font-size: 13px;
-  line-height: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #000;
   /* margin: 30px; */
+}
+.location-add a{
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #0a0a0a;
+    margin-left: 14px;
+    padding-bottom: 0;
+}
+.bi{
+  margin: 0px 20px 0px 0px;
 }
 hr {
   margin: 1.5rem 0;
@@ -1241,7 +1289,9 @@ hr {
   flex-direction: row;
   justify-content: center;
 }
-
+.country{
+  color: #ff8c5a;
+}
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
@@ -1538,10 +1588,10 @@ hr {
   justify-content: center;
 }
 .alig {
-  background-color: #f5f5f5;
+  background-color: #fff;
   padding: 20px;
-  border-radius: 15px;
-  box-shadow: 20px 20px 100px rgb(156, 156, 156);
+  border-radius: 6px;
+  box-shadow: 20px 20px 100px rgb(240, 240, 240);
 }
 #service__benefits {
   background-color: #fafafa;
@@ -2099,7 +2149,7 @@ hr {
 }
 
 .blog .entry .entry-content blockquote p {
-  color: #4d4643;
+  color: black;
   line-height: 1.6;
   margin-bottom: 0;
   font-style: italic;
@@ -2239,7 +2289,7 @@ hr {
 
 .blog .blog-comments .comment h5 a {
   font-weight: bold;
-  color: #4d4643;
+  color: black;
   transition: 0.3s;
 }
 
@@ -2604,7 +2654,7 @@ hr {
 /* counter-statistics */
 
 .bg-stat {
-  background-image: url(https://img.freepik.com/free-vector/gradient-dynamic-lines-background_23-2149020285.jpg?w=996&t=st=1720027589~exp=1720028189~hmac=e2829eb043c8a1fe54e5783677d82725e0de11ff729ada25ad14badf11e80f56);
+  background-image: url(../img/stats/orange-green-abstract.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2638,6 +2688,90 @@ hr {
   }
 }
 
+/* case-study */
+
+#case-study{
+  background: linear-gradient(90deg, hsla(204, 100%, 65%, 1) 0%, hsla(237, 100%, 67%, 1) 100%);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+.case-study-img{
+  /* background: url('../dummy_case_study.png');
+  height: 100%; */
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.case-study-img img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.case-study-desc h4{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 900;
+}
+.case-study-desc h1{
+    color: #ffffff;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    font-weight: 900;
+}
+.case-study-desc p{
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
+.case-study-desc a{
+  border-radius: 6px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 10px 20px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  white-space: nowrap;
+  font-weight: 700;
+}
+.case-study-desc a:hover{
+  color: transparent orange !important;
+  background-color: white;
+}
+.case-study-desc{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+#case-study{
+  padding: 0 !important;
+}
+@media screen and (max-width:700px){
+  .case-study-desc{
+    text-align: center !important;
+  }
+}
 /* EXTRAS  */
 
 .give-bg {

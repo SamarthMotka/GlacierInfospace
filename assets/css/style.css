@@ -70,19 +70,22 @@ body {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #fe6600;
+  background: #fe6600 !important;
   width: 40px;
   height: 40px;
   border-radius: 4px;
   transition: all 0.4s;
 }
-
+.
 .back-to-top i {
   font-size: 28px;
   color: #fff;
   line-height: 0;
 }
-
+.bisss{
+  margin: 0px !important;
+  color: white;
+}
 .back-to-top:hover {
   background: #21df41;
   color: #fff;
@@ -1653,6 +1656,39 @@ hr {
   justify-content: center;
 }
 
+.review-rating-home-footer img {
+  max-width: 100px;
+}
+.review-rating-lists-footer div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.review-rating-home-footer h2{
+  color: black;
+}
+.review-rating-home-footer{
+  padding: 0px;
+}
+.reviews-mobile-footer .review-f {
+  margin-bottom: 20px;
+}
+.alig-f {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  /* box-shadow: 20px 20px 100px rgb(240, 240, 240); */
+}
+.px{
+  padding: 0px 50px;
+}
+.reviews-mobile-footer .review img {
+  display: block;
+  margin: 0 auto;
+}
+
+
 
 /* industries pages  */
 
@@ -2645,9 +2681,19 @@ hr {
 .footer-logo img {
   max-width: 100%;
 }
-.footer-logo {
+.footer-contact img {
+  max-width: 100%;
+}
+/* .footer-logo {
   display: flex;
   align-items: center;
+  justify-content: center;
+} */
+
+.footer-logo a{
+  color: white;
+}
+.footer-content{
   justify-content: center;
 }
 

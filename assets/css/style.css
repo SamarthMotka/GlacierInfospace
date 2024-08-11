@@ -76,7 +76,7 @@ body {
   border-radius: 4px;
   transition: all 0.4s;
 }
-.
+
 .back-to-top i {
   font-size: 28px;
   color: #fff;
@@ -931,7 +931,7 @@ section {
 }
 
 .services .icon-box h4 {
-  font-weight: 600;
+  font-weight: 700;
   margin: 10px 0 15px 0;
   font-size: 22px;
 }
@@ -942,8 +942,12 @@ section {
 }
 
 .services .icon-box p {
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
@@ -1234,10 +1238,11 @@ section {
 }
 
 #location {
-  background-image: url(https://thumbs.dreamstime.com/z/world-map-orange-dots-38013461.jpg?w=992);
+  /* background-image: url(https://thumbs.dreamstime.com/z/world-map-orange-dots-38013461.jpg?w=992); */
+  background-image: url(../img/map.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: cover;
   background-color: #ffffff;
 }
 .location-add {
@@ -1570,10 +1575,17 @@ hr {
   /* margin: 5px; */
   font-weight: 700;
 }
+.wh{
+  color: white !important;
+}
 .stars {
   font-size: 20px;
   color: orange;
   margin-top: 10px;
+}
+.rev-box{
+  background-color: #FFF;
+  border-radius: 3px ;
 }
 
 .reviews-mobile .review {
@@ -1673,6 +1685,21 @@ hr {
 }
 .reviews-mobile-footer .review-f {
   margin-bottom: 20px;
+}
+@media screen and (max-width:555px) {
+  .footer-contact{
+    display: flex;
+    justify-content: center !important;
+  }
+  .footer-contact img {
+    max-width: 50% !important;
+    /* margin: auto 0px; */
+}
+}
+.reviews-mobile-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .alig-f {
   background-color: #fff;
@@ -2802,7 +2829,7 @@ hr {
   font-weight: 700;
 }
 .case-study-desc a:hover{
-  color: transparent orange !important;
+  color: #5665ff !important;
   background-color: white;
 }
 .case-study-desc{

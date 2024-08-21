@@ -1513,8 +1513,8 @@ hr {
 .serv-hero-main h1 {
   font-weight: 900;
   text-align: center;
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 48px;
+  line-height: 58px;
 }
 .serv-hero-main h3{
   font-weight: 900;
@@ -1548,9 +1548,9 @@ hr {
   font-size: 13px;
   font-weight: 700;
 }.reach-out:hover{
-  background-color:#1e1e1e ;
-  color: white;
-  border: 1px solid #1e1e1e;
+  background-color:white ;
+  color: #fe6600;
+  border: 1px solid #fe6600;
 }
 .service-cont-logo {
   display: flex;
@@ -1625,7 +1625,7 @@ hr {
   line-height: 22px;
 }
 .tools {
-  background-color: #f4f4f4;
+  background-color: #fafafa;
 }
 .h1 {
   font-weight: 900;
@@ -1653,9 +1653,9 @@ hr {
   white-space: nowrap;
 }
 .btn-primary:hover{
-  background-color:#1e1e1e ;
-  color: white;
-  border: 1px solid #1e1e1e;
+  background-color:white ;
+  color: #fe6600;
+  border: 1px solid #fe6600;
 }
 
 .review-rating-home img {
@@ -2931,4 +2931,36 @@ hr {
   /* margin: 0px 10px; */
   padding: 10px 15px;
   transition: ease-in 0.3s;
+}
+/* .dis-img{
+  height: 100vh;
+  width: 100vw;
+} */
+
+.dis-img {
+  height: 340px;
+  background-image: url('https://uicookies.com/wp-content/uploads/2019/07/product-website-templates-riven.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px 40px;
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pro-desc-txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+  z-index: 1000;
+}
+
+.dis-img:hover .pro-desc-txt {
+  visibility: visible;
+  opacity: 1;
 }

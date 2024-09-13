@@ -573,6 +573,7 @@ body {
   transition: 0.3s;
   border: 2px solid #fe6600;
   text-transform: uppercase;
+  list-style: none;
 }
 .estimate-btn:hover {
   /* margin: 20px 40px; */
@@ -1284,7 +1285,7 @@ section {
     padding-bottom: 0;
 }
 .bi{
-  margin: 0px 20px 0px 0px;
+  margin: 0px 10px 0px 0px;
 }
 hr {
   margin: 1.5rem 0;
@@ -2012,8 +2013,8 @@ hr {
 }
 
 .contact .php-email-form {
-  width: 100%;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  /* width: 100%; */
+  /* box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12); */
   padding: 30px;
   background: #fff;
 }
@@ -2086,15 +2087,21 @@ hr {
 
 .contact .php-email-form button[type="submit"] {
   background: #fe6600;
-  border: 0;
+  border: 1px solid #fe6600;
   padding: 10px 24px;
+  font-size: 13px;
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #2ae149;
+  background: white;
+  border: #fe6600 1px solid;
+  color: #fe6600;
 }
 
 @keyframes animate-loading {
@@ -2761,6 +2768,28 @@ hr {
   }
 }
 
+.icon i{
+  display: block;
+}
+.contact .contact_info .contact_info--media .link {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #0a0a0a;
+  text-decoration: none;
+}
+.contact_info{
+  padding-top: 30px;
+}
+.contact .contact_info .contact_info--media .link:hover {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #fe6600;
+  text-decoration: none;
+  transition: ease-in 0.3s;
+}
+
 /* case-study */
 
 #case-study{
@@ -2920,14 +2949,15 @@ hr {
   color: white;
   padding: 10px 15px;
   border-radius: 3px;
+  border: 1px solid #fe6600;
   font-weight: 700;
  }
  .skype-btn:hover {
   /* margin: 20px 40px; */
-  background-color: white;
+  background-color: #1e1e1e;
   color: #fe6600;
   border-radius: 4px;
-  /* border: 2px solid #fe6600; */
+  border: 1px solid #fe6600;
   /* margin: 0px 10px; */
   padding: 10px 15px;
   transition: ease-in 0.3s;

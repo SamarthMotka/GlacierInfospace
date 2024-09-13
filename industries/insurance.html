@@ -19,14 +19,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
@@ -39,47 +39,42 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center div-top">
 
-      <a href="index.html" class="logo me-auto me-lg-0"><img src="https://res.cloudinary.com/da5crwlqh/image/upload/v1719205428/Logo-Design_PNG_kdiaqj.png" alt="" class="img-fluid"></a>
-      <!-- <h1 class="logo me-auto"><a href="index.html"><span>Glacier</span>Infotech</a></h1> -->
+      <div class="logo-text">
+        <a href="../index.html" class="logo me-auto me-lg-0"><img src="https://res.cloudinary.com/da5crwlqh/image/upload/v1719205428/Logo-Design_PNG_kdiaqj.png" alt="" class="img-fluid"></a>
+        <h1 class="logo me-auto"><a href="../index.html"><span>Glacier</span>Infospace</a></h1>
+      </div>
       <!-- Uncomment below if you prefer to use an image logo -->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <!-- <li><a href="index.html" class="active">Home</a></li> -->
 
-          <li class="dropdown"><a href="#"><span>About</span></i></a>
-            <ul>
-              <li><a href="#">About Company</a></li>
-              <li><a href="#">Company Culture</a></li>
-              <li><a href="#">Career</a></li>
-              <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li> -->
-            </ul>
+          <li class="dropdown"><a href="../about.html"><span>About</span></i></a>
+            <!-- <ul>
+              <div class="col text-center">
+                <a href="#">About Company</a>
+                <a href="#">Company Culture</a>
+                <a href="#">Career</a>
+              </div>
+            </ul> -->
           </li>
-          <li class="dropdown"><a href="#"><span>Industries</span></i></a>
+          <li class="dropdown"><a href=""><span>Industries</span></i></a>
             <ul>
               <div>
-                <li><a href="#">Healthcare</a></li>
-                <li><a href="#">Education</a></li>
-                <li><a href="#">Insurance</a></li>
-                <li><a href="#">Manufacturing</a></li>
-                <li><a href="#">Beauty & Lifestyle</a></li>
-                <li><a href="#">Legal</a></li>
+                <li><a href="..\industries\healthcare.html">Healthcare</a></li>
+                <li><a href="..\industries\education.html">Education</a></li>
+                <li><a href="..\industries\insurance.html">Insurance</a></li>
+                <li><a href="..\industries\manufacturing.html">Manufacturing</a></li>
+                <li><a href="..\industries\beaulty_lifestyle.html">Beauty & Lifestyle</a></li>
+                <li><a href="..\industries\legal.html">Legal</a></li>
               </div>
               <div>
-                <li><a href="#">Finance</a></li>
-                <li><a href="#">Media & OTT</a></li>
-                <li><a href="#">Travel</a></li>
-                <li><a href="#">Retail</a></li>
-                <li><a href="#">Real Estate</a></li>
-                <li><a href="#">Logistics</a></li>
+                <li><a href="..\industries\finance.html">Finance</a></li>
+                <li><a href="..\industries\media_ott.html">Media & OTT</a></li>
+                <li><a href="..\industries\travel.html">Travel</a></li>
+                <li><a href="..\industries\retail.html">Retail</a></li>
+                <li><a href="..\industries\real_estate.html">Real Estate</a></li>
+                <li><a href="..\industries\logistics.html">Logistics</a></li>
               </div>
               <div class="industries-detail">
                 <div class="ind-content">
@@ -116,119 +111,158 @@
 
           <!-- <li><a href="#">Services</a> -->
             <li class="dropdown"><a href="#"><span>Services</span> </i></a>
-              <ul>
+              <ul class="service-drop">
                 <div class="service-mobile">
-                  <li><a href="#">Web Development</a></li>
-                  <li><a href="#">Mobile Development</a></li>
-                  <li><a href="#">Cloud & DevOps</a></li>
-                  <li><a href="#">Digital Marketing</a></li>
-                  <li><a href="#">Design Services</a></li>
-                  <li><a href="#">AI & Ml</a></li>
+                    <li><a href="#">Web Development</a>
+                    <div class="mobile-sub-links">
+                      <a href="PHP.html">PHP Web Development</a>
+                      <a href="WORDPRESS.html">WordPress Development</a>
+                      <a href="ECOMMERCE.html">E-Commerce Development</a>
+                      <a href="CMS.html">CMS Development</a>
+                      <a href="ENTERPRISE.html">Enterprise Web Development</a>
+                      <a href="CUSTOM.html">Custom Web Development</a>
+                    </div>
+                    </li>
+                  <li><a href="#">Mobile Development</a>
+                  <div>
+                    <a href="ANDROID.html">Android Application Development</a>
+                    <a href="IOS.html">iOS Application Development</a>
+                    <a href="REACT_NATIVE.html">React Native App Development</a>
+                    <a href="PWA.html">PWA Development</a>
+                  </div>
+                  </li>
+                  <li><a href="#">Cloud & DevOps</a>
+                    <div>
+                      <a href="AWS.html"> AWS</a>
+                      <a href="AZURE.html"> Microsoft Azure Cloud</a>
+                      <a href="GC.html"> Google Cloud</a>
+                    </div>
+                  </li>
+                  <li><a href="#">Digital Marketing</a>
+                    <div>
+                      <a href="SEO.html">Search Engine Optimization </a>
+                      <a href="MEDIA_MARKETING.html">Social Media Marketing </a>
+                      <a href="APP_MARKETING.html">Mobile Application Marketing </a>
+                      <a href="CONTENT_MARKETING.html">Content Marketing </a>
+                      <a href="REP_MANAGEMENT.html">Reputation Management </a>
+                    </div>
+                  </li>
+                  <li><a href="#">Design Services</a>
+                    <div>
+                      <a href="WIREFRANE.html">Wireframe Design</a>
+                      <a href="UI_UX.html">UI/UX Design</a>
+                      <a href="DESIGN_PROTOTYPING.html">Design Prototyping</a>
+                      <a href="APP_WEB_DESIGN.html">Mobile App/Website Design</a>
+                    </div>
+                  </li>
+                  <li><a href="AI.html">AI & Ml</a>
+                  </li>
                   <li><a href="#">Chatbot</a></li>
                   <li><a href="#">IoT</a></li>
                 </div>
+                
                 <div class="container service-cont">
                   <div class="row">
-                      <div class="col-35">
-                          <div class="service-details">
-                              <div class="main-links">
-                                <img src="https://res.cloudinary.com/da5crwlqh/image/upload/v1720001399/web-programming_avmrue.png" alt="" class="nav-icon">
-                                <a href="">Web Devlopment</a>
-                              </div>
-                              <div class="sub-links">
-                                <a href="services/PHP.html">PHP Web Development</a>
-                                <a href="services/WORDPRESS.html">WordPress Development</a>
-                                <a href="services/ECOMMERCE.html">E-Commerce Development</a>
-                                <a href="services/CMS.html">CMS Development</a>
-                                <a href="">Enterprise Web Development</a>
-                                <a href="">Custom Web Development</a>
-                              </div>
+                    <div class="col-35">
+                      <div class="service-details">
+                          <div class="main-links">
+                            <img src="https://res.cloudinary.com/da5crwlqh/image/upload/v1720001399/web-programming_avmrue.png" alt="" class="nav-icon">
+                            <a href="#">Web Devlopment</a>
                           </div>
-                      </div>
-                      <div class="col-35">
-                          <div class="service-details">
-                            <div class="main-links">
-                              <img src="https://res.cloudinary.com/da5crwlqh/image/upload/v1720001398/mobile-development_jyu5lz.png" alt="" class="nav-icon">
-                              <a href="">Mobile App Development</a>
-                            </div>
-                            <div class="sub-links">
-                              <a href="">Android Application Development</a>
-                              <a href="">iOS Application Development</a>
-                              <a href="">React Native App Development</a>
-                              <a href="">PWA Development</a>
-                            </div>
-                          </div>
-                      </div>
-                      <div class="col-35">
-                          <div class="service-details">
-                            <div class="main-links">
-                              <img src="https://res.cloudinary.com/da5crwlqh/image/upload/v1720001398/server_coovfw.png" alt="" class="nav-icon">
-                              <a href="">Cloud & DevOps</a>
-                            </div>
-                              <div class="sub-links">
-                                <a href=""> AWS</a>
-                                <a href=""> Microsoft Azure Cloud</a>
-                                <a href=""> Google Cloud</a>
-                              </div>
+                          <div class="sub-links">
+                            <a href="PHP.html">PHP Web Development</a>
+                            <a href="WORDPRESS.html">WordPress Development</a>
+                            <a href="ECOMMERCE.html">E-Commerce Development</a>
+                            <a href="CMS.html">CMS Development</a>
+                            <a href="ENTERPRISE.html">Enterprise Web Development</a>
+                            <a href="CUSTOM.html">Custom Web Development</a>
                           </div>
                       </div>
                   </div>
-                  <div class="row">
-                      <div class="col-35">
-                          <div class="service-details">
-                              <div class="main-links">
-                                <img src="https://res.cloudinary.com/da5crwlqh/image/upload/v1720001398/digital-marketing_bvuzxp.png" alt="" class="nav-icon">
-                                <a href="">Digital Marketing</a>
-                              </div>
-                              <div class="sub-links">
-                                <a href="">Search Engine Optimization </a>
-                                <a href="">Social Media Marketing </a>
-                                <a href="">Mobile Application Marketing </a>
-                                <a href="">Content Marketing </a>
-                                <a href="">Reputation Management </a>
-                              </div>
-                          </div>
+                  <div class="col-35">
+                      <div class="service-details">
+                        <div class="main-links">
+                          <img src="https://res.cloudinary.com/da5crwlqh/image/upload/v1720001398/mobile-development_jyu5lz.png" alt="" class="nav-icon">
+                          <a href="#">Mobile App Development</a>
+                        </div>
+                        <div class="sub-links">
+                          <a href="ANDROID.html">Android Application Development</a>
+                          <a href="IOS.html">iOS Application Development</a>
+                          <a href="REACT_NATIVE.html">React Native App Development</a>
+                          <a href="PWA.html">PWA Development</a>
+                        </div>
                       </div>
-                      <div class="col-35">
-                          <div class="service-details">
-                              <div class="main-links">
-                                <img src="https://res.cloudinary.com/da5crwlqh/image/upload/v1720001398/art_fnzgdb.png" alt="" class="nav-icon">
-                                <a href="">Design Service</a>
-                              </div>
-                              <div class="sub-links">
-                                <a href="">Wireframe Design</a>
-                                <a href="">UI/UX Design</a>
-                                <a href="">Design Prototyping</a>
-                                <a href="">Mobile App/Website Design</a>
-                              </div>
-                          </div>
+                  </div>
+                  <div class="col-35">
+                    <div class="service-details">
+                        <div class="main-links">
+                          <img src="https://res.cloudinary.com/da5crwlqh/image/upload/v1726206153/server_s8yqyo.png" alt="" class="nav-icon">
+                          <a href="#">Database Service</a>
+                        </div>
+                        <div class="sub-links">
+                          <a href="msql.html">MS SQL Development</a>
+                          <a href="ssrs.html">SSRS Development</a>
+                          <a href="ssis.html">SSIS Development</a>
+                          <a href="powerbi.html">Power BI Development</a>
+                          <a href="powerapps.html">Power Apps Development</a>
+                        </div>
+                    </div>
+                </div>
+                  
+              </div>
+              <div class="row">
+                <div class="col-35">
+                  <div class="service-details">
+                      <div class="main-links">
+                        <img src="https://res.cloudinary.com/da5crwlqh/image/upload/v1720001398/art_fnzgdb.png" alt="" class="nav-icon">
+                        <a href="#">Design Service</a>
                       </div>
-                      <div class="col-35">
-                          <div class="service-details">
-                              <div class="main-links">
-                                <img src="https://res.cloudinary.com/da5crwlqh/image/upload/v1720001398/electronic-accessory_s68pqm.png" alt="" class="nav-icon">
-                                <a href="">AI & ML</a>
-                              </div>
-                              <div class="main-links">
-                                <img src="https://res.cloudinary.com/da5crwlqh/image/upload/v1720001397/robotic_ggnipw.png" alt="" class="nav-icon">
-                                <a href="">Chatbot</a>
-                              </div>
-                              <div class="main-links">
-                                <img src="https://res.cloudinary.com/da5crwlqh/image/upload/v1720001398/iot_tplxjq.png" alt="" class="nav-icon">
-                                <a href="">IoT</a>
-                              </div>
+                      <div class="sub-links">
+                        <a href="WIREFRANE.html">Wireframe Design</a>
+                        <a href="UI_UX.html">UI/UX Design</a>
+                        <a href="DESIGN_PROTOTYPING.html">Design Prototyping</a>
+                        <a href="APP_WEB_DESIGN.html">Mobile App/Website Design</a>
+                      </div>
+                  </div>
+              </div>
+                <div class="col-35">
+                  <div class="service-details">
+                    <div class="main-links">
+                      <img src="https://res.cloudinary.com/da5crwlqh/image/upload/v1720001398/server_coovfw.png" alt="" class="nav-icon">
+                      <a href="#">Cloud & DevOps</a>
+                    </div>
+                      <div class="sub-links">
+                        <a href="AWS.html"> AWS</a>
+                        <a href="AZURE.html"> Microsoft Azure Cloud</a>
+                        <a href="GC.html"> Google Cloud</a>
+                      </div>
+                  </div>
+              </div>
+                  <div class="col-35">
+                      <div class="service-details">
+                          <div class="main-links">
+                            <img src="https://res.cloudinary.com/da5crwlqh/image/upload/v1720001398/digital-marketing_bvuzxp.png" alt="" class="nav-icon">
+                            <a href="#">Digital Marketing</a>
+                          </div>
+                          <div class="sub-links">
+                            <a href="SEO.html">Search Engine Optimization </a>
+                            <a href="MEDIA_MARKETING.html">Social Media Marketing </a>
+                            <a href="APP_MARKETING.html">Mobile Application Marketing </a>
+                            <a href="CONTENT_MARKETING.html">Content Marketing </a>
+                            <a href="REP_MANAGEMENT.html">Reputation Management </a>
                           </div>
                       </div>
                   </div>
-                  <div class="row">
-                      <div class="col service-veiw-more">
-                          <div class="d-flex justify-content-between align-items-center">
-                              <p class="service-personalize">Need a Personalized solution?
-                                  <br>
-                                  <span class="service-personalize-span">We understand no two businesses can have similar requirements. We can collaborate with you to discuss your requirements to deliver a customized solution meeting your needs.</span>
-                              </p>
-                              <a href="" class="service-personalize-btn">view more</a>
-                          </div>
+                  
+              </div>
+              <div class="row">
+                  <div class="col service-veiw-more">
+                      <div class="d-flex justify-content-between align-items-center">
+                          <p class="service-personalize">Need a Personalized solution?
+                              <br>
+                              <span class="service-personalize-span">We understand no two businesses can have similar requirements. We can collaborate with you to discuss your requirements to deliver a customized solution meeting your needs.</span>
+                          </p>
+                          <a href="" class="service-personalize-btn">view more</a>
                       </div>
                   </div>
               </div>
@@ -238,7 +272,7 @@
           <li><a href="#">Our Work</a></li>
           <!-- <li><a href="pricing.html">Pricing</a></li> -->
           <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="../contact.html">Contact</a></li>
 
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>

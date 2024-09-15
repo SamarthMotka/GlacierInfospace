@@ -58,7 +58,7 @@
               </div>
             </ul> -->
           </li>
-          <li class="dropdown"><a href=""><span>Industries</span></i></a>
+          <li class="dropdown"><a href="#"><span>Industries</span></i></a>
             <ul>
               <div>
                 <li><a href="..\industries\healthcare.html">Healthcare</a></li>
@@ -277,7 +277,100 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a href="#" class="estimate-btn">Get An Estimate</a>
+      <button href="#" class="estimate-btn" data-toggle="modal" data-target="#exampleModal">Get An Estimate</button>
+      
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header  justify-content-between">
+              <h5 class="modal-title project-about" id="exampleModalLabel">About Your Project</h5>
+              <button type="button" class="close btn" data-dismiss="modal" aria-label="Close">
+                <i class=" bi-x-circle" ></i>
+              </button>
+            </div>
+            <div class="">
+              <div class="modal-body">
+                <form role="form" class="cnt-email-form" action="#" method="post">
+                  <div class="row">
+                    <div class="form-group col-lg-6 my-3">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group col-lg-6 my-3">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-group col-lg-6 my-3">
+                      <input type="tel" class="form-control" name="phonenumber" id="phonenumber" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group col-lg-6 my-3">
+                      <input type="text" class="form-control" name="deadline" id="deadline" placeholder="Tell us your deadline" required>
+                    </div>
+                  </div>
+                  <div class="form-group my-3">
+                    <label class="form-group project-type" for="">PROJECT TYPE</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          UI UX Design
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          WEB
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Android app
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          IOS APP
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Marketing
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Other
+                        </label>
+                      </div>
+                    </div>
+                  
+                  
+                </div>
+                    
+                  <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" id="message" placeholder="Tell us about your project" required></textarea>
+                  </div>
+                  <div class=" text-center mt-2">
+                  </div>
+              </div>
+                <button class="project-submit" type="submit">Let's CHAT ></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 
     </div>
   </header><!-- End Header -->
@@ -644,6 +737,11 @@
   <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+   <!-- jQuery, Popper.js, and Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="../assets/js/main.js"></script>

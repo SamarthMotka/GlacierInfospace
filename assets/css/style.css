@@ -2948,7 +2948,7 @@ hr {
   font-weight: 900;
   line-height: 1.57;
   letter-spacing: 0.26px;
-  color: #fe6600;
+  /* color: #fe6600; */
 
 }
 .project-about{
@@ -2981,8 +2981,8 @@ hr {
   padding: 30px;
 }
 .modal-header{
-  background-color: #fe6600;
-  color:white !important;
+  /* background-color: #fe6600; */
+  color:#fe6600 !important;
   
 }
 

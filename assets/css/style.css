@@ -95,6 +95,47 @@ body {
   visibility: visible;
   opacity: 1;
 }
+.estimate-btn-mob {
+  /* margin: 20px 40px; */
+  background-color: #fe6600;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  border-radius: 4px;
+  margin: 0px 10px;
+  padding: 10px 20px;
+  transition: 0.3s;
+  border: 2px solid #fe6600;
+  text-transform: uppercase;
+  list-style: none;
+}
+.estimate-btn-mob:hover {
+  /* margin: 20px 40px; */
+  background-color: white;
+  color: #fe6600;
+  border-radius: 4px;
+  border: 2px solid #fe6600;
+  margin: 0px 10px;
+  padding: 10px 20px;
+}
+
+.estimate-mobile {
+  position: fixed;
+  visibility: hidden;
+  opacity: 1;
+  left: 15px;
+  bottom: 15px;
+  z-index: 1000;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+@media screen and (max-width:990px) {
+  .estimate-btn-mob{
+    visibility: visible;
+  }
+}
 
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
@@ -584,6 +625,7 @@ body {
   margin: 0px 10px;
   padding: 10px 20px;
 }
+
 @media (max-width: 992px) {
   .estimate-btn {
     display: none;

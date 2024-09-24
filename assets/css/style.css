@@ -1712,7 +1712,7 @@ hr {
 }
 
 .review-rating-home-footer img {
-  max-width: 100px;
+  max-width: 80px;
 }
 .review-rating-lists-footer div {
   display: flex;
@@ -2663,14 +2663,17 @@ hr {
   color: #aaaaaa;
   font-size: 14px;
 }
-
+.col-md-1_5{
+width: 120px;
+padding: 12px;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
   color: #fff;
   font-size: 14px;
-  background: #111;
+  background: #1e1e1e;
 }
 
 #footer .footer-top {
